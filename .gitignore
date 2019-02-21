@@ -1,0 +1,19 @@
+### Node ###
+node_modules/
+npm-debug.log
+npm-shrinkwrap.json
+
+### Mac ###
+.DS_Store
+
+### Eclipse ###		
+.project
+.settings/
+
+### Visual Studio Code ###
+.vscode/*
+.history
+
+### SublimeText ###
+*.sublime-workspace
+ *.sublime-project

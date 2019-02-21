@@ -1,0 +1,30 @@
+{
+  "name": "ztnr-proxy",
+  "distName": "ztnrProxy",
+  "description": "Servicio",
+  "projectType": "services",
+  "author": {
+    "name": "Paulo Ferreira",
+    "email": "paulo.media@gmail.com"
+  },
+  "contributors": [],
+
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulomedia/ZTNR-Proxy.git"
+  },
+  "scripts": {
+    "rebuild": "node ./node_modules/ci-build/index.js"
+  },
+  "dependencies": {
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  }
+}
